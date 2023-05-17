@@ -159,90 +159,75 @@ class _HomePageState extends State<HomePage> {
               children: [
                 storyItem(
                     image: 'assets/images/story1.jpg',
-                    userImage: 'assets/images/user2.jpg',
-                    userName: "MuhammadXo'ja"),
+                    userImage: 'assets/images/user3.jpg',
+                    userName: "Yunusbek "),
                 storyItem(
                     image: 'assets/images/story2.jpg',
-                    userImage: 'assets/images/user1.jpg',
-                    userName: "MuhammadXo'ja"),
+                    userImage: 'assets/images/user7.jpg',
+                    userName: "Bekzod Ikramov"),
                 storyItem(
-                    image: 'assets/images/story1.jpg',
-                    userImage: 'assets/images/user2.jpg',
-                    userName: "MuhammadXo'ja"),
+                    image: 'assets/images/story4.jpg',
+                    userImage: 'assets/images/user4.jpg',
+                    userName: "Mashxurbek"),
                 storyItem(
-                    image: 'assets/images/story1.jpg',
-                    userImage: 'assets/images/user2.jpg',
-                    userName: "MuhammadXo'ja"),
+                    image: 'assets/images/story3.jpg',
+                    userImage: 'assets/images/user6.jpg',
+                    userName: "WonMirzo"),
                 storyItem(
-                    image: 'assets/images/story1.jpg',
-                    userImage: 'assets/images/user2.jpg',
-                    userName: "MuhammadXo'ja"),
-                storyItem(
-                    image: 'assets/images/story1.jpg',
-                    userImage: 'assets/images/user2.jpg',
-                    userName: "MuhammadXo'ja"),
-                storyItem(
-                    image: 'assets/images/story1.jpg',
-                    userImage: 'assets/images/user2.jpg',
-                    userName: "MuhammadXo'ja"),
-                storyItem(
-                    image: 'assets/images/story1.jpg',
-                    userImage: 'assets/images/user2.jpg',
-                    userName: "MuhammadXo'ja"),
-                storyItem(
-                    image: 'assets/images/story1.jpg',
-                    userImage: 'assets/images/user2.jpg',
-                    userName: "MuhammadXo'ja"),
-                storyItem(
-                    image: 'assets/images/story1.jpg',
-                    userImage: 'assets/images/user2.jpg',
-                    userName: "MuhammadXo'ja"),
-                storyItem(
-                    image: 'assets/images/story1.jpg',
-                    userImage: 'assets/images/user2.jpg',
-                    userName: "MuhammadXo'ja"),
-                storyItem(
-                    image: 'assets/images/story1.jpg',
-                    userImage: 'assets/images/user2.jpg',
-                    userName: "MuhammadXo'ja"),
-                storyItem(
-                    image: 'assets/images/story1.jpg',
-                    userImage: 'assets/images/user2.jpg',
-                    userName: "MuhammadXo'ja"),
+                    image: 'assets/images/story5.jpg',
+                    userImage: 'assets/images/user5.jpg',
+                    userName: "Designer A..."),
               ],
             ),
           ),
-          feedItem(
-            userName: "Yunusbek Masharipov",
-            userImage: "assets/images/user3.jpg",
-            feedTime: "1 hr ago",
-            feedText:
-                "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
-            feedImages: ["assets/images/post1.jpg"],
-          ),
-          feedItem(
-            userName: "Azizbek Raximov",
-            userImage: "assets/images/user1.jpg",
-            feedTime: "2 hr ago",
-            feedText:
-                "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
-            feedImages: ["assets/images/post2.jpg", "assets/images/post3.jpg"],
-          ),
-          feedItem(
-            userName: "WonMirzo",
-            userImage: "assets/images/user6.jpg",
-            feedTime: "2 hr ago",
-            feedText:
-            "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
-            feedImages: ["assets/images/post1.jpg","assets/images/post2.jpg", "assets/images/post3.jpg"],
-          ),
-          feedItem(
-            userName: "WonMirzo",
-            userImage: "assets/images/user7.jpg",
-            feedTime: "2 hr ago",
-            feedText:
-            "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
-            feedImages: ["assets/images/post1.jpg","assets/images/post4.jpg", "assets/images/post3.jpg","assets/images/post4.jpg"],
+          //feed
+          Column(
+            children: [
+              feedItem(
+                userName: "Yunusbek Masharipov",
+                userImage: "assets/images/user3.jpg",
+                feedTime: "1 hr ago",
+                feedText:
+                    "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+                feedImages: ["assets/images/story3.jpg"],
+              ),
+              feedItem(
+                userName: "Azizbek Raximov",
+                userImage: "assets/images/user1.jpg",
+                feedTime: "1 hr ago",
+                feedText:
+                    "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
+                feedImages: [
+                  "assets/images/story1.jpg",
+                  "assets/images/story2.jpg"
+                ],
+              ),
+              feedItem(
+                userName: "Bekzod Ikramov",
+                userImage: "assets/images/user7.jpg",
+                feedTime: "2 hr ago",
+                feedText:
+                    "Flutterni tanlashingiz uchun 3 ta sabab.\n1. Tez kompilyatsiya\n2.O'rganish va ishlatish juda oddiy\n3. Bitta dasturchi 2 ta platformaga bittada dastur tuza oladi.",
+                feedImages: [
+                  "assets/images/post1.jpg",
+                  "assets/images/post2.jpg",
+                  "assets/images/post3.jpg"
+                ],
+              ),
+              feedItem(
+                userName: "Bekzod Ikramov",
+                userImage: "assets/images/user7.jpg",
+                feedTime: "2 hr ago",
+                feedText:
+                    "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
+                feedImages: [
+                  "assets/images/post5.jpg",
+                  "assets/images/story2.jpg",
+                  "assets/images/post3.jpg",
+                  "assets/images/post4.jpg"
+                ],
+              ),
+            ],
           ),
         ],
       ),
@@ -288,7 +273,7 @@ class _HomePageState extends State<HomePage> {
                   shape: BoxShape.circle,
                   border: Border.all(width: 2, color: Colors.blue),
                   image: DecorationImage(
-                      image: AssetImage(userImage), fit: BoxFit.cover),
+                      image: AssetImage(userImage), fit: BoxFit.fill),
                 ),
               ),
               Text(
@@ -596,7 +581,6 @@ class _HomePageState extends State<HomePage> {
             children: [
               Expanded(
                 child: Container(
-                  margin: const EdgeInsets.only(top: 10),
                   height: 240,
                   decoration: BoxDecoration(
                     image: DecorationImage(
@@ -608,7 +592,6 @@ class _HomePageState extends State<HomePage> {
               ),
               Expanded(
                 child: Container(
-                  margin: const EdgeInsets.only(top: 10),
                   height: 240,
                   decoration: BoxDecoration(
                     image: DecorationImage(
@@ -639,7 +622,6 @@ class _HomePageState extends State<HomePage> {
             children: [
               Expanded(
                 child: Container(
-                  margin: const EdgeInsets.only(top: 10),
                   height: 240,
                   decoration: BoxDecoration(
                     image: DecorationImage(
@@ -651,7 +633,6 @@ class _HomePageState extends State<HomePage> {
               ),
               Expanded(
                 child: Container(
-                  margin: const EdgeInsets.only(top: 10),
                   height: 240,
                   decoration: BoxDecoration(
                     image: DecorationImage(
@@ -664,13 +645,17 @@ class _HomePageState extends State<HomePage> {
                       gradient: LinearGradient(
                         begin: Alignment.bottomCenter,
                         colors: [
-                          Colors.black.withOpacity(.6),
+                          Colors.black.withOpacity(.8),
                           Colors.black.withOpacity(.1),
                         ],
                       ),
                     ),
                     child: Center(
-                      child: Text("${images.length - 3}+",style: const TextStyle(color: Colors.white,fontSize: 50),),
+                      child: Text(
+                        "${images.length - 3}+",
+                        style:
+                            const TextStyle(color: Colors.white, fontSize: 50),
+                      ),
                     ),
                   ),
                 ),
